@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <title>Katha Rohan Reddy</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<script>
+     var timesClicked = 0;
+    $(document).ready(function(){
+       
+  $("#js").click(function(){
+    timesClicked++;
+    if((timesClicked)%5==1)
+    {
+        $(this).attr("src", "./2.jpeg");
+    }
+    if((timesClicked)%5==2)
+    {
+        $(this).attr("src", "./6.jpeg");
+    }
+    if((timesClicked%5)==3)
+    {
+        $(this).attr("src", "./4.jpeg");
+    }
+    if((timesClicked%5)==4)
+    {
+        $(this).attr("src", "./5.jpeg");
+    }
+    if((timesClicked%5)==0)
+    {
+        $(this).attr("src", "./1.jpeg");
+    }
+   
+  });
+});
+</script>
+<script src="script1.js">
+
+</script>
+<body onload = "fu()">
+    
+    <div id ="nav">
+        <a onmouseover="func()" onmouseout="lunc()" id ="2" class ="sodi" href="index.html">Home</a>
+    <a onmouseover="func1()" onmouseout="lunc1()" id ="3" class ="sodi" href="about.html">Aboutme</a>
+    <a onmouseover="func2()" onmouseout="lunc2()" id ="4"class ="sodi" href="achievements.html">Achievements</a>
+    <a onmouseover="func3()" onmouseout="lunc3()" id ="5"class ="sodi" href="contactme.html">contactme</a>
+     </div>
+     <div id="head">
+        <p>
+            <h1>I am Katha rohan reddy</h1>
+           
+             I am studying cse at iiith btech ug-1 student i love sports and music
+             <br>
+             <br>
+           
+             Regarding myself i am bit introvert having a good sense of humour and i am not that punctual but still manages to complete most of things on time i see failures are more important than your success i am mostly intrested in network industry and i am a enthusiastic energitic optimistic guy who believes in stoicism and positivity
+
+            
+        </p>
+     </div>
+     <div id ="gaku">
+        <p>
+            <h1>My childhood</h1>
+              I was born in hyderabad and then migrated to nandyal where i grew up most of my time I studied at <a href="https://srichaitanyaschool.net/users/login">Sri Chaitanya Techno school</a> for nearly 8 years
+             <br>
+             <br>
+             My childhood was joyful thanks to my family and my parents told no matter what i do i should give my best and respect all my teachers and never strive for grades rather enjoy subject 
+            <br>
+             <img  id="js" src="./1.jpeg" onclick = "toggleImage();" >
+             
+        </p>
+     </div>
+     <div id ="howle">
+
+        <h1>My skills</h1>
+        1.) WEB DEVELOPEMENT
+            <br>
+            I have a good understanding of html css javascript
+            <br>
+        2.) CYBERSECURITY
+            <br>
+            Know networking concepts and have a understanding of ccna cssip comptia+
+            <br>
+            3.) LINUX DEVELOPEMENT
+                <br>
+                 Know some details about linux
+                <br>
+            4.) GAMING 
+                <br>
+               Played all rockstar games and easports
+     </div>
+     <div id ="hola">
+
+        <h1>More about me</h1>
+         <h2>My favourite cricketer</h2>
+         <br>
+         <img class ="ross" src="https://i.ndtvimg.com/i/2018-03/ross-taylor-afp_806x605_41520407392.jpg" alt="ROSS THE BOSS" srcset="">
+         <br>
+         ROSS THE BOSS
+         <h2>My favourite anime</h2>
+         <br>
+         <img class ="ross"src="https://i.pinimg.com/originals/7b/3b/1b/7b3b1b0dd0ebb816ad9b14fe93ef1787.jpg" alt="">
+         <br>
+         AOT
+         <h2>My favourite actor</h2>
+         <br>
+         <img class ="ross"src="https://ohmy.disney.com/wp-content/uploads/2014/10/Q3-Jack-Sparrow.png" alt="">
+         <br>
+         JOHNNY DEPP
+         <h2>Last but not least</h2>
+         
+          <h1>MY INSPIRATION</h2>
+            <br>
+            <img src="https://i.pinimg.com/736x/65/ea/24/65ea240036ea406f7f54a2078efafee0.jpg" alt="" srcset="">
+            <br>
+            DARK KNIGHT
+         <br>
+
+     </div>
+
+   
+</body>
+</html>
